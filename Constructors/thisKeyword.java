@@ -17,6 +17,7 @@ class Student6{
     int age;
 
     Student6(String name , int age){
+        // this refers to the current object
         this.name = name;
         this.age = age;
     }
