@@ -1,7 +1,6 @@
 /*
 Theory:
-The super() keyword is used to call the constructor
-of the parent class.
+The super() keyword is used to call the constructor of the parent class.
 
 It must be the first statement inside the child constructor.
 */
