@@ -19,45 +19,41 @@ Advantages:
 
 package Inheritance;
 
-// Parent class :-
-class Animal{
-
-    void eat(){
-        System.out.println("Animal is eating....");
+class Device{
+    void turnOn(){
+        System.out.println("Device is turned on");
     }
 }
 
-// Interface 1 
-interface Pet{
-    void play();
+interface Camera{
+    void takePhoto();
 }
 
-// Interface 2
-interface Guard{
-    void protect();
+interface MusicPlayer{
+    void playMusic();
 }
 
-// Child class : Inherits a class and implements two interfaces
-class Dog extends Animal implements Pet , Guard{
+class SmartPhone extends Device implements Camera, MusicPlayer{
 
     @Override 
-    public void play(){
-        System.out.println("Dog is playing");
+    public void takePhoto(){
+        System.out.println("Taking a Photo");
     }
 
     @Override 
-    public void protect(){
-        System.out.println("Dog is protecting the house");
+    public void playMusic(){
+        System.out.println("Playing Music");
     }
 }
 
 public class HybridInheritance {
+
     public static void main(String[] args) {
         
-        Dog dog = new Dog();
+        SmartPhone phone = new SmartPhone();
 
-        dog.eat();
-        dog.play();
-        dog.protect();
+        phone.turnOn();
+        phone.takePhoto();
+        phone.playMusic();
     }
 }
