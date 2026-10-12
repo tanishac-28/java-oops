@@ -50,7 +50,6 @@ class Car extends Vehicle{
 }
 
 public class superVariable {
-
     public static void main(String[] args) {
         
         Car car = new Car();
