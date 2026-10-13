@@ -45,7 +45,7 @@ public class Upcasting {
     public static void main(String[] args) {
         
         // Upcasting
-        AnimalUp animal = new AnimalUp();
+        AnimalUp animal = new DogUp();
         animal.eat();
 
 
