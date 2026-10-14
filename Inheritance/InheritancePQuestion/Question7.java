@@ -40,6 +40,8 @@ class ATM extends Bank{
 public class Question7 {
     public static void main(String[] args) {
         ATM a = new ATM();
-        a.showPin();
+
+        // Compilation error: private method cannot be accessed directly outside the bank class
+        // a.showPin();
     } 
 }
