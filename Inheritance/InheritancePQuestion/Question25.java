@@ -1,5 +1,5 @@
 /*
-Q26. Inheritance with Method Overriding and Reference Type
+Q25. Inheritance with Method Overriding and Reference Type
 
 Question:
 Create a parent class BankAccount.
