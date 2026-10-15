@@ -58,7 +58,7 @@ public class DynamicMethodDispatch {
         // Parent reference pointing to Dog object
         AnimalDispatch animal1 = new DogDispatch();
 
-        // Parent referrence pointing to Cat object
+        // Parent reference pointing to Cat object
         AnimalDispatch animal2 = new CatDispatch();
 
         // Calls the overridden method at runtime
