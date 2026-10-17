@@ -1,6 +1,6 @@
 /*
 Topic: Encapsulation
-Question 11: Employee Salary Management
+Question 1: Employee Salary Management
 
 Problem Statement:
 Create an Employee class using the concept of encapsulation.

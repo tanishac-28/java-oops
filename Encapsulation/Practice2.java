@@ -1,5 +1,5 @@
 /*
-Question 12: Bank Account Management
+Question 2: Bank Account Management
 
 Problem Statement:
 Create a class named BankAccount.
