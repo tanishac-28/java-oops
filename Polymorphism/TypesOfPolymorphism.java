@@ -27,6 +27,7 @@ package Polymorphism;
  * - Requires a subtype relationship for overriding.
  */
 
+
 public class TypesOfPolymorphism {
 
     public static void main(String[] args) {
@@ -34,6 +35,5 @@ public class TypesOfPolymorphism {
         System.out.println("Types of Polymorphism");
         System.out.println("1. Compile-Time Polymorphism");
         System.out.println("2. Runtime Polymorphism");
-
     }
 }
