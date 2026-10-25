@@ -44,6 +44,7 @@ class CardPayment extends Payment {
     }
 }
 
+// Main class
 public class AbstractClassPaymentSystem {
 
     public static void main(String[] args) {
